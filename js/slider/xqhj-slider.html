@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+<script type="text/javascript" src="./js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="./js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+		<style type="text/css">
+		/* css 重置 */
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+
+		/* 本例子css */
+		.picMarquee-left{ width:500px;  overflow:hidden; position:relative;  }
+		.picMarquee-left .hd{ overflow:hidden;  height:30px; background:#f4f4f4; padding:0 10px;  }
+		.picMarquee-left .hd .prev,.picMarquee-left .hd .next{ display:block;  width:5px; height:9px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+			 cursor:pointer;}
+		.picMarquee-left .hd .next{ background-position:0 -50px;  }
+		.picMarquee-left .hd .prevStop{ background-position:-60px 0; }
+		.picMarquee-left .hd .nextStop{ background-position:-60px -50px; }
+		.picMarquee-left .bd{ padding:5px;   }
+		.picMarquee-left .bd ul{ overflow:hidden; zoom:1; }
+		.picMarquee-left .bd ul li{ margin:0 3px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+		.picMarquee-left .bd ul li .pic{ text-align:center; }
+		.picMarquee-left .bd ul li .pic img{ 
+			/* width:120px; height:90px;*/
+			 width:140px; height:100px;
+			display:block; padding:2px; }
+		.picMarquee-left .bd ul li .pic a:hover img{ border-color:#999;  }
+		.picMarquee-left .bd ul li .title{ line-height:24px;   }
+
+		</style>
+
+		<div class="picMarquee-left">
+			<!--<div class="hd">
+				<a class="next"></a>
+				<a class="prev"></a>
+			</div>-->
+			<div class="bd">
+				<ul class="picList">
+					<li>
+						<div class="pic"><a href="javascript:void(0)"><img src="img/slider-jx-02.jpg" /></a></div>
+					</li>
+					<li>
+						<div class="pic"><a href="javascript:void(0)"><img src="img/slider-jx-02.jpg" /></a></div>
+					</li>
+					<li>
+						<div class="pic"><a href="javascript:void(0)"><img src="img/slider-jx-02.jpg" /></a></div>
+					</li>
+					<li>
+						<div class="pic"><a href="javascript:void(0)"><img src="img/slider-jx-02.jpg" /></a></div>
+					</li>
+					<li>
+						<div class="pic"><a href="javascript:void(0)"><img src="img/slider-jx-02.jpg" /></a></div>
+					</li>
+					<li>
+						<div class="pic"><a href="javascript:void(0)"><img src="img/slider-jx-02.jpg" /></a></div>
+					</li>
+					<li>
+						<div class="pic"><a href="javascript:void(0)"><img src="img/slider-jx-02.jpg" /></a></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+		jQuery(".picMarquee-left").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:3,interTime:50});
+		</script>
+</body>
+</html>
+

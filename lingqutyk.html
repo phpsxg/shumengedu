@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="./css/style.css"  rel="stylesheet" type="text/css" />
+        <link href="./css/index.css"  rel="stylesheet" type="text/css" />
+        <link href="./css/jquery.zySlide.css" rel="stylesheet" />
+        <script src="./js/jquery.min.js"></script>
+        
+        <style>
+        
+			@media (min-width:300px) and (max-width: 768px){
+        		.smail-width {
+        			max-width: 300px!important;
+			    width: 100%!important;
+			    margin:3px auto!important;
+			    left: 0px;
+    				right: 5px;
+        		}
+        	}
+		.pzr-form {
+		    background: rgba(255,255,255,1);
+		    padding: 30px 32px 0 30px;
+		    position: relative;
+		    top: 0;
+		    z-index: 8;
+		    text-align: center;
+		    border-radius: 15px;
+		    width: 340px;
+		    max-width: 340px;
+		    /* right: 50px; */
+		    /* border: 1px solid red; */
+		    margin:5px 0 5px 64px;
+		    box-shadow: 0 0 3px 3px #ddd;
+		}
+        </style>
+	</head>
+	<body>
+		<form action="" class="receiveCourseForm form-horizontal pzr-form border-radius smail-width">
+            <h4 class="c-2">免费领取价值 <span class="c-1 font-24">300</span>元体验课</h4>
+            <div class="input-group text-center">
+                <input type="text" class="form-control" id="name" name="name" placeholder="姓名"/>
+            </div>
+            <div class="input-group text-center">
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入电话号码"/>
+            </div>
+            <div class="input-group text-center ">
+                <input type="text" class="form-control w-50" id="code" name="code" placeholder="请输入验证码"/>
+                <button type="button" class="form-control linear-btn-2 w-50  Verification"  data-toggle="modal" data-target="#myModal" id="draw">发送验证码</button>
+            </div>
+            <div>
+                <button class="btn btn-default linear-button bg-btn receiveCourse" type="button" class="">
+                        立即领取体验课程
+                </button>
+                <input type="reset" name="reset" style="display: none;" />
+                <div class="pdt-25">
+                        <span class="icon-call">&nbsp;&nbsp;</span>
+                        <span class="c-1">400-1817-520</span>
+                </div>
+            </div>
+        </form>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery.zySlide.js"></script>
+<script src="./services/common-config.js"></script>
+<script src="./services/lingqutyk-services.js"></script>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">提示</h4>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	</body>
+</html>

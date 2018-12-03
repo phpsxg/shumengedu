@@ -1,0 +1,481 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>少儿数学思维在线教育-数萌在线</title>
+        <meta name="Keywords" content="少儿数学思维，数萌在线，数萌教育">
+	<meta name="description" content="数萌在线是数萌教育旗下的在线教育平台，主要专注于4-12岁少儿数学思维教育，通过数萌老师一对一或者一对多的形式帮助少儿培养数学思维的能力，并最终让幼少儿通过数学思维能力独立的去解决现实生活中的一些问题。" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="./css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="./css/index.css" rel="stylesheet" type="text/css"/>
+	<link href="./css/jquery.bxslider.css" rel="stylesheet" type="text/css"/>
+	<script src="./js/jquery.min.js"></script>
+	<style>
+		.mOTopBanner {
+			padding-left: 14%;
+			padding-top: 80px;
+			height: 600px;
+			background: url("./img/tHMOnline/sy02_2.png") no-repeat;
+			background-size: 100%;
+			color: #ffffff;
+		}
+		.mOTopBanner .mOTBTitle {
+			font-size: 24px;
+			margin-top: 20px;
+		}
+		.mOTBLine {
+			width: 50px;
+			height: 3px;
+			background-color: #ffffff;
+			margin-top: 10px;
+		}
+		.mOTBList {
+			margin-top: 20px;
+		}
+		.mOTBList li {
+			line-height: 35px;
+		}
+		.mOTBList li img{
+			margin-right: 20px;
+		}
+		.mOIntroduce {
+			text-align: center;
+			font-size: 32px;
+			font-weight: bold;
+			color: #000;
+		}
+		.mOIntroduce .mOIconLine {
+			width: 80px;
+		}
+		.mOIntroduce .tOICon {
+			display: flex;
+			margin-top: 70px;
+		}
+		.mOIntroduce .tOICon .tOITImg{
+			flex: 1;
+			text-align: right;
+			padding-right: 20px;
+		}
+		.mOIntroduce .tOICon .tOICDetails{
+			flex: 1;
+			text-align: left;
+			padding-right: 60px;
+		}
+		.tOICDetails .tOICBrand {
+			font-size: 32px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.tOICDetails .tOICDLine {
+			margin-bottom: 20px;
+		}
+		.tOICDetails .tOICDLis {
+			font-size: 16px;
+			font-weight: normal;
+			color: #888;
+		}
+		.tOICDetails .tOICDLis p{font-size: 14px;line-height: 26px;}
+		.oMLearn {
+			width: 100%;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.oMLearn .oMLearnLine {
+			width: 80px;
+		}
+		.oMLearn div {
+			font-size: 32px;
+			font-weight: bold;
+			color: #000;
+		}
+		.oMLearn .oMLearnList {
+			width: 80%;
+			margin: 30px 10%;
+		}
+		.oMLearn .oMLearnList li{
+			display: inline-block;
+			text-align: center;
+			margin: 10px 10px;
+			width: 16%;
+		}
+		.oMLearn .oMLearnList li img{width: 100%;}
+		.oMLearn .oMLearnList li .OMLLTitle {
+			font-size: 20px;
+		}
+		.oMLearn .oMLearnList li .OMLLDetails {
+			font-size: 14px;
+			color: #888888;
+		}
+		.mOString {
+			width: 100%;
+			height: 10px;
+			background-color: #f0f2f4;
+			margin-top: 80px;
+		}
+		.mOEduSystem {
+			width: 100%;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.mOEduSystem .mOESTitle {
+			font-size: 32px;
+			font-weight: bold;
+			color: #000;
+		}
+		.mOEduSystem .mOESLine {
+			width: 80px;
+		}
+		.mOEduSystem .mOESList {
+			width: 80%;
+			margin: 0 10%;
+		}
+		.mOEduSystem .mOESList li {
+			height: 320px;
+			position: relative;
+			margin: 10px 30px;
+		}
+		.mOEduSystem .mOESList li.mOESLLiOne {
+			background: url("./img/tHMOnline/sy02_bg_1.png") no-repeat 100%;
+		}
+		.mOEduSystem .mOESList li.mOESLLiOne .mOESLLisBg {
+			background: url("./img/tHMOnline/sy02_title_bg.png") no-repeat;
+			width: 246px;
+			height: 42px;
+			position: absolute;
+			top: 20%;
+			right: 14%;
+			font-size: 18px;
+			color: #fff;
+			line-height: 42px;
+			margin-left: 30px;
+		}
+		.mOESLLisCon {
+			position: absolute;
+			top: 40%;
+			right: 6%;
+			width: 400px;
+			text-align: left;
+		}
+		.mOEduSystem .mOESList li.mOESLLiThree {
+			background: url("./img/tHMOnline/sy02_bg_3.png") no-repeat 100%;
+		}
+		.mOEduSystem .mOESList li.mOESLLiThree .mOESLLisBg {
+			background: url("./img/tHMOnline/sy02_title_bg.png") no-repeat;
+			width: 246px;
+			height: 42px;
+			position: absolute;
+			top: 20%;
+			right: 19%;
+			font-size: 18px;
+			color: #fff;
+			line-height: 42px;
+			margin-left: 30px;
+		}
+		.mOEduSystem .mOESList li.mOESLLiTwo {
+			background: url("./img/tHMOnline/sy02_bg_2.png") no-repeat;
+		}
+		.mOEduSystem .mOESList li.mOESLLiTwo .mOESLLisBg {
+			background: url("./img/tHMOnline/sy02_title_bg.png") no-repeat;
+			width: 246px;
+			height: 42px;
+			position: absolute;
+			top: 20%;
+			left: 16%;
+			font-size: 18px;
+			color: #fff;
+			line-height: 42px;
+			margin-left: 30px;
+		}
+		.mOEduSystem .mOESList li.mOESLLiFour {
+			background: url("./img/tHMOnline/sy02_bg_4.png") no-repeat;
+		}
+		.mOEduSystem .mOESList li.mOESLLiFour .mOESLLisBg {
+			background: url("./img/tHMOnline/sy02_title_bg.png") no-repeat;
+			width: 246px;
+			height: 42px;
+			position: absolute;
+			top: 20%;
+			left: 16%;
+			font-size: 18px;
+			color: #fff;
+			line-height: 42px;
+			margin-left: 30px;
+		}
+		.mOESLLisCon2 {
+			position: absolute;
+			top: 40%;
+			left: 20%;
+			width: 400px;
+			text-align: left;
+		}
+		.mOGoodAt {
+			width: 100%;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.mOGoodAt .mOESTitle {
+			font-size: 32px;
+			font-weight: bold;
+			color: #000;
+		}
+		.mOGoodAt .mOESLine {
+			width: 80px;
+		}
+		.mOGoodLis {
+			width: 80%;
+			margin: 20px 10%;
+			text-align: center;
+		}
+		.mOGoodLis li {
+			display: inline-block;
+			margin-right: 20px;
+			width: 24%
+		}
+		.mOGoodLis li img {width: 100%;}
+		.mOMSystem {
+			width: 100%;
+			text-align: center;
+		}
+		.mOMSystem .mOMSTitle {
+			font-size: 32px;
+			color: #000;
+			font-weight: bold;
+			margin-top: 50px;
+		}
+		.mOMSystem .mOIconLine {
+			width: 80px;
+			margin-top: 15px;
+			margin-bottom: 30px;
+		}
+		.mOMSystem .m-left {width:100%; margin-left: 4%;}
+
+	</style>
+</head>
+<body>
+<div class="">
+	<script type="text/javascript" src="./js/public-header.js"></script>
+	<div class="mOTopBanner">
+		<div class="mOTBTitle">融合教育是未来教育的标准</div>
+		<div class="mOTBTitle">国际化上市公司21年教学沉淀课程</div>
+		<div class="mOTBLine"></div>
+		<ul class="mOTBList">
+			<li><img src="./img/tHMOnline/sy02_icon_Polygon.png" alt="">强调自由思考力</li>
+			<li><img src="./img/tHMOnline/sy02_icon_Polygon.png" alt="">提高孩子想象力和创造力</li>
+			<li><img src="./img/tHMOnline/sy02_icon_Polygon.png" alt="">提高用新颖方式解决问题的能力</li>
+			<li><img src="./img/tHMOnline/sy02_icon_Polygon.png" alt="">帮助打好融合思考力的基础</li>
+		</ul>
+	</div>
+	<div class="mOIntroduce">
+		<div>数萌在线简介</div>
+		<img class="mOIconLine" src="./img/tHMOnline/sy02_icon_line.png" alt="">
+		<div class="tOICon">
+			<div class="tOITImg">
+				<img src="./img/tHMOnline/sy01_3.png" alt="">
+			</div>
+			<div class="tOICDetails">
+				<div class="tOICBrand">品牌介绍</div>
+				<img class="tOICDLine" src="./img/tHMOnline/sy01_icon_line.png" alt="">
+				<div class="tOICDLis">
+					<p  class="pt-10">
+						数萌在线是数萌教育旗下的在线直播品牌，数萌教育是中国上市公司盛通股份和国际化上市公司CMSedu的合资公司，致力于向国内2-12岁儿童提供基于国际先进教育理念的思维培训服务。数萌教育通过游戏、活动、讲故事等不同的上课方式，让孩子不断能提高理解力、想象力，进而提高孩子们的综合数学素质教育。
+					</p>
+					<p  class="pt-10">
+						亚洲国际化上市公司CMS至今已有21年的时间，期间获得了各种大奖。CMS为了让孩子们长大成为智慧的人，反复提出问题，引导孩子们自行找到答案，提高孩子们的数学素质教育，其课程远销美国、韩国、泰国、墨西哥、印度、巴西、印尼、缅甸等多个国家和地区。
+					</p>
+					<p  class="pt-10">
+						盛通股份：素质教育第一股。盛通旗下有中国儿童机器人素质教育领军企业---乐博乐博、中鸣数码以及国内素质英语培训领先企业---迈格森等子品牌，同时还投资了国内最大的在线少儿编程公司---编程猫、韩国最大STEM研发公司---韩国乐博、国内最大亲子演艺公司---小橙宝、国内最知名教育垂直媒体---芥末堆等品牌，成功实现了外延式稳步增长，现代服务产业与教育产业协同发展。
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="oMLearn">
+		<div>完善学习过程</div>
+		<img class="oMLearnLine" src="./img/tHMOnline/sy02_icon_line.png" alt="">
+		<ul class="oMLearnList">
+			<li>
+				<img src="./img/tHMOnline/sy02_4.png" alt="">
+				<div class="OMLLTitle">了解测评</div>
+				<div class="OMLLDetails">课前测评熟悉孩子</div>
+			</li>
+			<li>
+				<img src="./img/tHMOnline/sy02_5.png" alt="">
+				<div class="OMLLTitle">一对一方案</div>
+				<div class="OMLLDetails">定制教学方案</div>
+			</li>
+			<li>
+				<img src="./img/tHMOnline/sy02_6.png" alt="">
+				<div class="OMLLTitle">课前辅导</div>
+				<div class="OMLLDetails">课程更连贯</div>
+			</li>
+			<li>
+				<img src="./img/tHMOnline/sy02_7.png" alt="">
+				<div class="OMLLTitle">线上教学</div>
+				<div class="OMLLDetails">学习更便捷</div>
+			</li>
+			<li>
+				<img src="./img/tHMOnline/sy02_8.png" alt="">
+				<div class="OMLLTitle">课后巩固</div>
+				<div class="OMLLDetails">牢记知识点</div>
+			</li>
+		</ul>
+	</div>
+	<div class="mOString"></div>
+	<div class="mOEduSystem">
+		<div class="mOESTitle">教学体系</div>
+		<img class="mOESLine" src="./img/tHMOnline/sy02_icon_line.png" alt="">
+		<ul class="mOESList">
+			<li class="mOESLLiOne">
+				<div class="mOESLLisBg">多媒体教学</div>
+				<div class="mOESLLisCon">
+					<p>
+						引用外国先进教学工具，采用多媒体教学方式，
+					</p>
+					<p>创造完善的教学环境，打造优越的学习氛围</p>
+				</div>
+			</li>
+			<li class="mOESLLiTwo">
+				<div class="mOESLLisBg">小班课程</div>
+				<div class="mOESLLisCon2">
+					<p>引用外国先进教学工具，采用多媒体教学方式，</p>
+					<p>创造完善的教学环境，打造优越的学习氛围</p>
+				</div>
+			</li>
+			<li class="mOESLLiThree">
+				<div class="mOESLLisBg">线上教学</div>
+				<div class="mOESLLisCon">
+					<p>引进线上教学课程，家长孩子不用东奔西走，</p>
+					<p>在家也能做辅导，线上课件反复听，随时补</p>
+					<p>课，再也不用担心落下课程。</p>
+				</div>
+			</li>
+			<li class="mOESLLiFour">
+				<div class="mOESLLisBg">小班课程</div>
+				<div class="mOESLLisCon2">
+					<p>采用情景式动画互动课件教学，调动孩子学习积极</p>
+					<p>性既满足孩子追求新鲜事物的兴趣、又能让孩子掌</p>
+					<p>握数学思维。</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="mOGoodAt">
+		<div class="mOESTitle">我们的优势</div>
+		<img class="mOESLine" src="./img/tHMOnline/sy02_icon_line.png" alt="">
+	</div>
+	<ul class="mOGoodLis">
+		<li>
+			<img src="./img/tHMOnline/sy02_9.png" alt="">
+			<div>先进教学理念</div>
+		</li>
+		<li>
+			<img src="./img/tHMOnline/sy02_10.png" alt="">
+			<div>趣味教学</div>
+		</li>
+		<li>
+			<img src="./img/tHMOnline/sy02_11.png" alt="">
+			<div>引导教学</div>
+		</li>
+	</ul>
+	<div class="mOMSystem">
+		<div class="mOMSTitle">数萌在线简介</div>
+		<img class="mOIconLine" src="./img/tHMOnline/sy02_icon_line.png" alt="">
+		<section class=" lay-section">
+			<h3 class="index-smail bg-tit-1">少儿数学培养体系</h3>
+			<div class="container">
+				<div class="row index-smail">
+					<div class=" col-sm-offset-1 col-xs-offset-1 col-sm-10 col-xs-10">
+						<img src="img/mobile/index-mobile-se.png" alt="" />
+					</div>
+				</div>
+				<div class="row index-big">
+					<div class="ladder col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+						<!-- <img src="./img/se.png" alt="" style="height:100%"> -->
+						<ul class="ui-1">
+							<li>阶段年龄</li>
+							<li>能力培养</li>
+							<li>思维能力</li>
+							<li>知识培养</li>
+						</ul>
+						<ul class="ui-2">
+							<li>LV.1<br> 幼儿园小班</li>
+							<li>基础思考力</li>
+							<li>训练注意力<br>观察力</br>记忆力</li>
+							<li>演算</li>
+						</ul>
+						<ul class="ui-3">
+							<li>LV.2<br> 幼儿园中班</li>
+							<li>逻辑思考力</li>
+							<li>理解、应用、分析、和综合评价能力</li>
+							<li>图形</li>
+						</ul>
+						<ul class="ui-4">
+							<li>LV.3<br> 幼儿园大班</li>
+							<li>数学思考力</li>
+							<li>数演算、图形与空间、测量、规律性和统计</li>
+							<li>测量</li>
+						</ul>
+						<ul class="ui-5">
+							<li>LV.4<br> 学前班</li>
+							<li>创意思考力</li>
+							<li>创意倾向和创意思考技法的练习</li>
+							<li>规律</li>
+						</ul>
+						<ul class="ui-6">
+							<li>一年级</li>
+							<li>创造力</li>
+							<li>抽象思维<br>转化思维<br>逆向思维</li>
+							<li></li>
+						</ul>
+						<ul class="ui-7">
+							<li>二年级</li>
+							<li>分析判断能力</li>
+							<li>逻辑思维<br>模型思维<br>变量思维</li>
+							<li></li>
+						</ul>
+						<ul class="ui-8">
+							<li>三年级</li>
+							<li>数学思考力</li>
+							<li>数学思维<br>归纳思维<br>推理思维</li>
+							<li>分类</li>
+						</ul>
+						<ul class="ui-9">
+							<li>四年级</li>
+							<li>批判思考力</li>
+							<li>战略思维<br>分析思维</br>辩证思维</li>
+							<li style="color:#f57e81">逻辑</li>
+						</ul>
+						<ul class="ui-10">
+							<li>五年级</li>
+							<li>融合思考力</li>
+							<li>直观思维<br>综合思维</br>表象思维</li>
+							<li></li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="index-big" style="height: 50px;"></div>
+			</div>
+		</section>
+	</div>
+</div>
+<script type="text/javascript" src="./js/public-footer.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery.bxslider.js"></script>
+<script src="./services/jm-service.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function () {
+		jQuery('.slider3').bxSlider({
+			slideWidth: 400,
+			minSlides: 2,
+			maxSlides: 3,
+			moveSlides: 1,
+			slideMargin: 10
+		});
+	});
+</script>
+</body>
+</html>

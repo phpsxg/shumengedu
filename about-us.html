@@ -1,0 +1,485 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>关于我们</title>
+		<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="./css/style.css"  rel="stylesheet" type="text/css" />
+        <link href="./css/mobile.css"  rel="stylesheet" type="text/css" />
+        <link href="./css/index.css"  rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link href="./css/jquery.zySlide.css" rel="stylesheet" >
+        <link href="./css/touchSlider.css"  rel="stylesheet" type="text/css" />
+        <!--<script src="./js/slider/js/jquery1.42.min.js"></script>-->
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/TouchSlide.1.1.js"></script>
+        
+        <script src="./js/slider/js/jquery.SuperSlide.2.1.1.js"></script>
+        
+        <style>
+            img{ width:100%}
+            #btnToggle button{	margin: 10px 14px}
+        </style>
+	</head>
+<body>
+	
+        <script type="text/javascript" src="./js/public-header.js"></script>
+        <div id="myCarousel" class="carousel slide index-big">
+            <!-- 轮播（Carousel）指标 -->
+            <!--<ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   -->
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./img/banner.png" alt="First slide">
+                </div>
+                <!--<div class="item">
+                    <img src="./img/banner.png" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img src="./img/banner.png" alt="Third slide">
+                </div>-->
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>-->
+        </div> 
+        <div class="index-smail">
+            	<!-- 本例主要代码 Start ================================ -->
+				<div id="focus" class="focus">
+					<div class="hd">
+						<ul></ul>
+					</div>
+					<div class="bd">
+						<ul>
+							<li><a href="#"><img _src="./img/mobile/banner-smail.png" src="./img/mobile/banner-smail.png" /></a></li>
+							<li><a href="#"><img _src="./img/mobile/banner-smail.png" src="./img/mobile/banner-smail.png"/></a></li>
+							<li><a href="#"><img _src="./img/mobile/banner-smail.png" src="./img/mobile/banner-smail.png"/></a></li>
+						</ul>
+					</div>
+				</div>
+				<script type="text/javascript">
+					TouchSlide({ 
+						slideCell:"#focus",
+						titCell:"#focus .hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+						mainCell:"#focus .bd ul", 
+						effect:"left", 
+						autoPlay:true,//自动播放
+						autoPage:true, //自动分页
+						switchLoad:"_src" //切换加载，真实图片路径为"_src" 
+					});
+				</script>
+				<!-- 本例主要代码 End ================================ -->
+            </div>
+        <div id="chouseSection" class="container">
+            <div class="row" style="margin:20px 0">
+                <div id="btnToggle" class="btn-tool col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <button type="button" class="btn btn-hollow currBtn">公司介绍</button>
+                    <button type="button" class="btn btn-hollow ">CEO问候语</button>
+                    <button type="button" class="btn btn-hollow">教育理念</button>
+                    <button type="button" class="btn btn-hollow slider-show">校区环境</button>
+                    <button type="button" class="btn btn-hollow getNews"  id="">公司新闻</button>
+                    <button type="button" class="btn btn-hollow">联系我们</button>
+                </div>
+            </div>
+        </div>
+        <section class="toSE container lay-section no-border img-100" style="margin-top:30px;margin-bottom:57px;">
+                <div class="row">
+                    <div class="border-radius col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <img src="./img/as-l.png"/>
+                    </div>
+                    <div class="positon-relative col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="pdl-10">
+                            <div class="about-t index-smail-mt20">
+                                数萌教育简介
+                            </div>
+                        </div>
+                        <div>
+                            <p class="pt-10">
+                                数萌教育是数萌教育旗下的线下校区品牌，数萌教育是中国上市公司盛通股份和国际化上市公司CMSedu的合资公司，致力于向国内2-12岁儿童提供基于国际先进教育理念的思维培训服务。数萌教育通过游戏、活动、讲故事等不同的上课方式，让孩子不断能提高理解力、想象力，进而提高孩子们的综合数学素质教育。
+                            </p>
+                            <p class="pt-10">
+                                亚洲国际化上市公司CMS至今已有21年的时间，期间获得了各种大奖。CMS为了让孩子们长大成为智慧的人，反复提出问题，引导孩子们自行找到答案，提高孩子们的数学素质教育，其课程远销美国、韩国、泰国、墨西哥、印度、巴西、印尼、缅甸等多个国家和地区。
+                            </p>
+                            <p class="pt-10">
+                                盛通股份：素质教育第一股。盛通旗下有中国儿童机器人素质教育领军企业---乐博乐博、中鸣数码以及国内素质英语培训领先企业---迈格森等子品牌，同时还投资了国内最大的在线少儿编程公司---编程猫、韩国最大STEM研发公司---韩国乐博、国内最大亲子演艺公司---小橙宝、国内最知名教育垂直媒体---芥末堆等品牌，成功实现了外延式稳步增长，现代服务产业与教育产业协同发展
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mgt-40">
+                        <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h3 class="index-big">企业荣誉 <div class="bdline"><span><i></i></span></div></h3>
+                            <h3 class="index-smail bg-tit-1">企业荣誉</h3>
+                        </div>
+                    </div>
+                    <div class="mgt-img  mgt-img-smail col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    		<div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                                <div class="">
+                                    <img src="./img/aboutus/honor-1.png"/>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                                <div class="">
+                                    <img src="./img/aboutus/honor-2.png"/>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                                <div class="">
+                                    <img src="./img/aboutus/honor-3.png"/>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                                <div class="">
+                                    <img src="./img/aboutus/honor-4.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="toSE ceo-bg hide">
+            <div class="row mgt-20">
+                <div class="positon-relative col-md-offset-1 col-lg-3 col-md-3 col-sm-offset-3 col-xs-offset-3 col-sm-6 col-xs-6">
+                    <img src="./img/ceo-1.png" style="position:relative;bottom:0"/>
+                </div>
+                <div class="positon-relative col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <div class="pdl-10">
+                        <div class="ceo-orange linear-button">
+                            CEO问候语
+                        </div>
+                    </div>
+                    <div>
+                        <p class="pt-10">
+                            作为中国上市公司盛通股份和国际化上市公司CMSedu的合资公司，数萌从诞生之日起，就秉承CMSedu公司沉淀了20年数学思维课程的基因，在盛通股份的资本支持下，我们立志让数以亿计的中国2-12岁幼少儿快速 实现素质教育的梦想！
+                        </p>
+                        <p class="pt-10">
+                        数萌教育是美国斯坦福大学研发的Smaile课程战略合作机构，也是乐博机器人的兄弟公司，作为中国数学思维课程的领跑者，我们始终坚持把苏格拉底提问法作为我们的教学理念向“想象与创造中心”进军。 “想象”具有能发挥出色创意并创造出创新产物的能量。数萌教育致力成为“梦想成真的地方”和“想象与创造的中心”，并为培养孩子们想象力、创造力以及创造出创新产物的未来人才而努力。
+                        <p class="pt-10">希望数萌教育能够和您一起实现梦想！</p>
+                        <p style="margin-left: 50%;
+                        text-align: center;">
+                        数萌教育CEO
+                        <br/>陈天赋
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="toSE  hide  row0" style="">
+            <div class="lay-section_p row">
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <div class="jy-tit" style="width: 300px;">
+                        教育哲学
+                        <br>EDUCATIONAL PHILOSOPHY
+                    </div>
+                </div>
+                <img src="./img/关于数萌（教育理论）.png" class="index-big">
+                <img src="./img/jyzx.png" class="index-smail">
+            </div>
+            <div class="row jyln" style="padding:40px 0">
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <span class="bd-tit">
+                        01
+                    </span>
+                    <p>
+                        养成自觉思考的能力，培养创意性问题解决能力和综合能力
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <span class="bd-tit">
+                        02
+                    </span>
+                    <p>
+                        挑战新的问题，解决新的问题的能力来源于好奇心和自信心
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <span class="bd-tit">
+                        03
+                    </span>
+                    <p>
+                        自信感是在自觉发理中得到增强，好奇心是在可以自由的观察和探索的环境中得到培养
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <span class="bd-tit">
+                        04
+                    </span>
+                    <p>
+                        体验可以加倍对学习的乐趣，一起思考和讨论，可以让成果变得更大。
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="padding-top:20px;">
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <div class="jy-tit" style="width: 300px;">
+                        教育方法
+                        <br>EDUCATIONAL METHOD
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <p style="margin-top:30px">
+                        苏格拉底强调通过提问，自觉领悟真理很重要。CMS为了让孩子们长大成为有智慧的人，
+                            反复提出问题，引导孩子们自行找到答案。
+                    </p>
+                </div>
+                <div class="col-lg-offset-4  col-md-offset-2  col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <img src="./img/dsdsds.png" alt="">
+                </div>
+            </div>
+            <div class="row conP_down">
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <img src="http://www.shumengedu.com/statics/images/ke1_tu30.png" alt="">
+                    <div class="tl"> Maieutic Method
+                            (产婆术或者苏格拉底式发问法)
+                    </div>
+                    <div>
+                        古希腊哲学家苏格拉底觉得自己虽然没有生产智慧的能力，但是可以帮助别人产生智慧并可以识别对方智慧的真伪,他将自己的行为活动比喻成“产婆术”。反复 对对方伦理说明提出疑问，定义有关概念，让对方自觉“产出”新想法的一种方法。
+                    </div>
+                </div> 
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <img src="http://www.shumengedu.com/statics/images/ke1_tu30.png" alt="">
+                    <div class="tl"> 通过自由讨论解决问题
+                            (教学相长：教育，学习，一起成长)
+                    </div>
+                    <div>
+                            问题面前不要自己焦虑，通过和同学们进行自由的讨论找到解决的方法。这可以让孩子们比一个人思考问题更能积极的解决问题，并增添孩子们的学习兴趣。分享 自己所知的知识，了解团队的效率大于个人，从讨论中培养孩子们的协助能力和社会性。加之把个人的不足进行填补，通过各种经历加大理解问题的深度，领悟之 前不知道的部分。
+                    </div>
+                </div>
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <img src="http://www.shumengedu.com/statics/images/ke1_tu30.png" alt="">
+                    <div class="tl">ConNEC Reading
+                            (连贯性阅读)
+                    </div>
+                    <div>
+                            阅读的同时对书本中不明白的内容，运用其他书与自己想要知道的内容相连接的读书方法。随机阅读不同主题的书与“积累浅薄的知识”不同，对于感兴趣的部分 通过一点点深入达到“有深度的领会”。因为是拓展自己思维的自主性的读书法，所以不仅能够学习知识，还能成为发展思考力的有用工具。（ConNEC : necessary connection) 的缩写，例如：从对“太阳”的好奇心出发-“太阳”的构造和行星-地球的诞生和生命体-有机物和物质循环-光合学和能量-未来能量和环境技术）。
+                    </div>
+                </div>
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <img src="http://www.shumengedu.com/statics/images/ke1_tu30.png" alt="">
+                    <div class="tl">假说的建立和验证
+                    </div>
+                    <div>
+                            科学中对事实的观察或者对某些现象不能用原有的知识来说明或者和原有的知识不相符的时候，需要运用叫做假说的新的说明体系。建立假说需要超过原有的知识， 这种方法利用在数学上，能对创意解决问题有更大的帮助。这起源于教师的具有假设性质的发问或者自身的好奇心。验证假说的过程中，孩子会学到更多的知识， 综合运用同时展开经历思考的垂直性，水平性的拓展和综合。这一点超越了原有的固定观念，称之为孩子们可以自由想象与创造的核心方法论。
+                    </div>
+                </div>
+            </div>
+            <!-- <div>
+                <img src="http://www.shumengedu.com/statics/images/ke1_tu30.png" /> 
+            </div> -->
+        </section>
+       
+        <section class="toSE container hide">
+            <div class="row">
+                <h3 class="text-center c-2">数萌教育校区环境
+                    <div class="border-line"></div>
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-offset-2  col-md-offset-2  col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="lay-section_p">
+                        <p class="text-center index-big">数萌教育在原有安全、舒适、儿童化的学习环境基础上，加入了诸多前沿的智能学习技术，更加提升孩子</p>
+                        <p class="text-center index-big" >的学习效率。校区的电子设备与照明均设置视力保护的标准，使用最新环保装修材料，国际化装修规格，</p>
+                        <p class="text-center index-big">每个教室都具备通风、采光条件、给孩子一个舒适健康的学习环境。</p>
+                        
+                        <p class="text-center index-smail smail-text-left">数萌教育在原有安全、舒适、儿童化的学习环境基础上，加入了诸多前沿的智能学习技术，更加提升孩子
+                        的学习效率。校区的电子设备与照明均设置视力保护的标准，使用最新环保装修材料，国际化装修规格，
+                        每个教室都具备通风、采光条件、给孩子一个舒适健康的学习环境。</p>
+                        
+                        <div id="Slide2" class="zy-Slide index-big">
+                            <!--prev:元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。-->
+                            <section><img style="width: 38px;height: 38px;" src="./img/icon-prex.png"/>&nbsp;&nbsp;</section>
+                            <section><img style="width: 38px;height: 38px;" src="./img/icon-next.png"/>&nbsp;&nbsp;</section>
+                            <ul>
+                                <!--alt + shift : 可以创建一个矩形选择区域-->
+                                <li><img src="./img/slider-1.png" /></li>
+                                <li><img src="./img/slider-2.png" /></li>
+                                <li><img src="./img/slider-3.png" /></li>
+                                <li><img src="./img/slider-4.png" /></li>
+                                <li><img src="./img/slider-5.png" /></li>
+                                <li><img src="./img/slider-6.png" /></li>
+                                <li><img src="./img/slider-7.png" /></li>
+                            </ul>
+                        </div>
+                    		<div class="index-smail">
+                    			<iframe  class="slider_xqhj_box " src="js/slider/xqhj-slider.html" width="100%" height="130px" style="margin:0 auto;border:0 solid transparent"></iframe>
+                    		</div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+            	 	<div class="col-lg-offset-2  col-md-offset-2  col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            			<iframe  class="slider_xqhj_box " src="js/slider/xqhj-slider.html" width="100%" height="130px" style="margin:0 auto;border:0 solid transparent"></iframe>
+            		</div>
+        	 	</div>-->
+
+        </section>
+        <section class="toSE container  hide">
+        		<div class="loadingBox" style="display: block;">
+	        		<div class="AjaxLoading showbox" style="position:static">
+					<div class="loadingWord"><img src="./img/waiting.gif">正在载入请稍后...</div>
+				</div>
+			</div>
+        		<div class="loadingHide" style="display: none;">
+	    			<div class="container" id="industrynewsList">
+		            <div class="row mgt-20">
+		                <div class="border-radius col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		                    <img src="./img/as-l.png"/>
+		                </div>
+		                <div class="positon-relative col-lg-8 col-md-8 col-sm-12 col-xs-12">
+		                    <div class="pdl-10">
+		                        <p class="about-t">数萌教育是中国上市公司盛通股份和国</p>
+		                    </div>
+		                    <div>
+		                        <p class="pt-10">
+		                        数萌教育是中国上市公司盛通股份和国际化上市公司CMSedu的合资公司，致力于向国内2-8
+		                        于国际先进教育理念的思维培训服务。用游戏CMSedu的合资公司，致力于向国内2-8岁儿童提
+		                        进教育理念的思维培训服务。用游戏
+		                        </p>
+		                        <p class="pt-10">
+		                        数萌教育是中国上市公司盛通股份和国际化上市公司CMSedu的合资公司，致力于向国内2-8
+		                        于国际先进教育理念的思维培训服务。用游戏CMSedu的合资公司，致力于向国内2-8岁儿童提
+		                        进教育理念的思维培训服务。用游戏                                 
+		                        </p>
+		                    </div>
+		                </div>
+		                 
+		            </div>
+		            <div class="row bt-line-gray">
+		                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+		                    时间：2018年1月2日 12:20
+		                </div>
+		                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+		                    来源：<a href="" alt="">https://learn.huohua.cn</a>
+		                </div>
+		                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+		                    作者：数萌教育
+		                </div>
+		            </div>
+		            <div class="row mgt-20">
+		                <div class="border-radius col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		                    <img src="./img/as-l.png"/>
+		                </div>
+		                <div class="positon-relative col-lg-8 col-md-8 col-sm-12 col-xs-12">
+		                    <div class="pdl-10">
+		                        <p class="about-t">数萌教育是中国上市公司盛通股份和国</p>
+		                    </div>
+		                    <div>
+		                        <p class="pt-10">
+		                        数萌教育是中国上市公司盛通股份和国际化上市公司CMSedu的合资公司，致力于向国内2-8
+		                        于国际先进教育理念的思维培训服务。用游戏CMSedu的合资公司，致力于向国内2-8岁儿童提
+		                        进教育理念的思维培训服务。用游戏
+		                        </p>
+		                        <p class="pt-10">
+		                        数萌教育是中国上市公司盛通股份和国际化上市公司CMSedu的合资公司，致力于向国内2-8
+		                        于国际先进教育理念的思维培训服务。用游戏CMSedu的合资公司，致力于向国内2-8岁儿童提
+		                        进教育理念的思维培训服务。用游戏                                 
+		                        </p>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="row bt-line-gray">
+	                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	                    时间：2018年1月2日 12:20
+	                </div>
+	                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	                    来源：<a href="" alt="">https://learn.huohua.cn</a>
+	                </div>
+	                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	                    作者：数萌教育
+	                </div>
+	            </div>
+	           </div>
+	           	<div class="text-center">
+	           		<ul id='element-pages'></ul>
+	           	</div>
+           	<div>
+        </section>
+		<section class="toSE container hide">
+            <div class="row mgt-20">
+            	<div class="col-lg-offset-2  col-md-offset-2  col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                    <div class="jy-tit">
+                        联系我们
+                        <br>CONTACT US
+                    </div>
+                </div>
+            	
+                <div class="positon-relative col-md-offset-1 col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                    <img src="./img/contact-map.png" style="position:relative;bottom:0"/>
+                </div>
+            </div>
+        </section>
+
+    		 
+        
+<script type="text/javascript" src="./js/public-footer.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery.zySlide.js"></script>
+<!-- <script src="./services/news-information-services.js"></script> -->
+<script src="./services/bootstrap-paginator.js"></script>
+<script src="./services/industrynews-services.js"></script>
+<script>
+    // $(function(){
+    //     $('#identifier').carousel({
+    //         interval: 2000
+    //     })
+    // })
+    $.noConflict()
+    jQuery('.zy-Slide').zySlide({ speed: 500 })
+    .css('border', '0px solid blue');
+    //切换 tab
+    jQuery(function(){
+	    var url = document.location.toString();
+	　　 var arrUrl = url.split("?title=");
+	　　 var para = arrUrl[1];
+		if(para == "undefined"){
+			jQuery('.toSE').eq(0).removeClass('hide').siblings('.toSE').addClass('hide');
+		}
+
+    
+        jQuery('#btnToggle').find('button').each(function(index,ele){
+            jQuery(ele).click(function(){
+                jQuery(this).addClass('currBtn').siblings('button').removeClass('currBtn');
+                	// console.log((index));
+                jQuery('.toSE').each(function(i,e){
+                    if(index == i){
+//                         alert(i)
+                        jQuery('.toSE').eq(i).removeClass('hide')
+                        .siblings('.toSE').addClass('hide');
+              
+                    }
+                })
+                
+            })
+            if(parseInt(para) === index){
+	           jQuery('.toSE').each(function(key,value){
+		           	if(parseInt(index) === key){
+                        jQuery(value).removeClass('hide')
+                        .siblings('.toSE').addClass('hide');
+//                     console.log("---",jQuery(value));
+	              	}
+                })
+                // console.log(parseInt(para) ,"===", index);
+                jQuery(this).addClass('currBtn').siblings('button').removeClass('currBtn');
+            }
+            
+        })
+	})
+</script>
+</body>
+</html>

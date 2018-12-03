@@ -1,0 +1,176 @@
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+  color: #fff;
+  text-decoration:none;
+}
+ input{
+     outline: none;
+ }
+.f_right{
+    float: right;
+}
+.mobile_header {
+    height: 80px;
+    padding: 10px;
+}
+.mobile_header a{
+    margin-top:5px;
+    line-height: 40px;
+
+}
+.btn50 {
+    height: 50px;
+    margin-top:10px;
+    
+}
+ .btn50 a{
+    width: 50%;
+    display: table-caption;
+    float: left;
+    box-sizing: border-box;
+    font-size: 13px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(left,#f67f4c, #fc9f38)!important;
+    background:-o-linear-gradient(right,#f67f4c, #fc9f38);/* Opera 11.1 - 12.0 */
+    background:-moz-linear-gradient(right,#f67f4c,#fc9f38);/* Firefox 3.6 - 15 */
+    background:linear-gradient(to right,#f67f4c, #fc9f38);/* 标准*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#f67f4c,endcolorstr=#fc9f38,gradientType=1);
+    color: #fff;
+    border: none;
+    line-height: 50px;
+
+}
+.btn50 img{
+    width: 20px;
+    height: 20px;
+}
+.cicle {
+    border:1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cicle i{
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    background-position: center center;
+    width: 40px;
+    margin: 5px 0;
+    height: 40px;
+    
+}
+.cicle:nth-of-type(1) i{
+    background: url(../../img/mobile/icon-call-1.png) no-repeat center;
+    background-size: 29px;
+    background-position: 0;
+    
+}
+.cicle:nth-of-type(2) i{
+    background: url(../../img/mobile/icon-call-2.png) no-repeat;
+    background-size: 29px;
+    background-position: center center;
+}
+.bzsn {
+    box-shadow: none;
+}
+.c-orange {
+    color:#fc9f38;
+}
+.mobile_banner img{
+    width: 100%;
+}
+.rece-bg {
+    background: url(../img/bg-mobile-1.png) no-repeat;
+    background-clip: content-box;
+    background-size: 100%;
+    overflow: scroll;
+    background-position: top center;
+}
+.formDiv {
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.c-blue-purple {
+    color: #5152d8;
+}
+.btn_orange{
+    box-sizing: border-box;
+    letter-spacing: 0;
+    font-size: 13px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(left,#f67f4c, #fc9f38)!important;
+    background:-o-linear-gradient(right,#f67f4c, #fc9f38);/* Opera 11.1 - 12.0 */
+    background:-moz-linear-gradient(right,#f67f4c,#fc9f38);/* Firefox 3.6 - 15 */
+    background:linear-gradient(to right,#f67f4c, #fc9f38);/* 标准*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#f67f4c,endcolorstr=#fc9f38,gradientType=1);
+    color: #fff;
+    border: none;
+    padding: 5px 10px
+}
+.form_control_1{
+    display: inline-table;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    color: #555;
+    height: inherit;
+    height: 40px;
+    vertical-align: text-bottom;
+    border:none;
+    padding-left: 20px;
+    position: relative;
+    bottom: 7px;
+    border:1px solid transparent;
+}
+.cicle .form_control_1{
+    width: 80%;
+}
+a span {
+    color: #fff;
+    text-decoration: none;
+}
